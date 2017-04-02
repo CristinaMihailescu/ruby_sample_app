@@ -1,2 +1,13 @@
-<h1>Home</h1>
-<p>Welcome to the home page, m8!</p>
+<% provide(:title, "Home") %>
+
+<html>
+    <head>
+        <title><%= yield(:title) %> | Title</title>
+    </head>
+    <body>
+        <h1>Home</h1>
+        <p>Welcome to the home page, m8!</p>
+    </body>
+</html>
+
+
